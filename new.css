@@ -1,0 +1,479 @@
+    @import url('http://fonts.cdnfonts.com/css/graphik');
+    * {
+        padding: 1%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #fffdf5;
+        margin: auto;
+    }
+    
+    .nav-container {
+        display: flex;
+        align-items: center;
+        /* position: fixed; */
+        background-color: #fffdf5;
+    }
+    
+    nav a {
+        text-decoration: none;
+        font-size: 18px;
+        padding-left: 50px;
+        font-family: 'Graphik', sans-serif;
+        color: #817567;
+    }
+    
+    nav {
+        width: 50vw;
+        padding-left: 30px;
+    }
+    
+    .btn {
+        display: flex;
+        align-items: center;
+        width: 100px;
+    }
+    
+    .thumbs {
+        background-color: #e7332b;
+        border-radius: 100px;
+        margin-left: -75px;
+        padding: 10px;
+        position: absolute;
+        width: 5%;
+    }
+    
+    .link {
+        /* position: initial; */
+        background-color: #e7332b;
+        padding: 15px 10px;
+        text-decoration: none;
+        color: #ffffff;
+        border-radius: 20px;
+        margin-left: -20px;
+        font-family: 'Graphik', sans-serif;
+    }
+    
+    .btn {
+        /* background-color: #e7332b; */
+        width: 600px;
+        padding: 3px 10px;
+        border-radius: 20px;
+        margin-left: 100px;
+    }
+    /* Section 2 */
+    
+    .first-section {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-align: center;
+        /* background-color: #817567; */
+    }
+    
+    .lady {
+        width: 150%;
+        mix-blend-mode: darken;
+        margin: auto;
+        padding-top: 200px;
+    }
+    
+    .male {
+        width: 300px;
+        mix-blend-mode: darken;
+        padding-top: 200px;
+    }
+    
+    .header-font {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        width: 500%;
+        padding-bottom: 50px;
+    }
+    
+    h1 {
+        color: #1b1a20;
+        font-family: 'Graphik', sans-serif;
+        text-align: center;
+        font-size: 50px;
+        width: 100%;
+    }
+    
+    p {
+        color: #e7332b;
+        font-family: 'Graphik', sans-serif;
+        text-align: center;
+        font-size: 18px;
+        margin: auto;
+    }
+    
+    .p,
+    .p-2 {
+        color: #1b1a20;
+        padding-top: 20px;
+        position: relative;
+        font-family: 'Graphik', sans-serif;
+        width: 60%;
+        text-align: center;
+    }
+    
+    .line {
+        width: 25%;
+        margin-left: 250px;
+    }
+    
+    .btn-1 {
+        display: flex;
+        flex-direction: column;
+        color: #ffffff;
+        align-items: center;
+        justify-content: center;
+        /* background-color: aqua; */
+    }
+    
+    .link-2 {
+        text-decoration: none;
+        background-color: #e7332b;
+        color: #ffffff;
+        border-radius: 20px;
+        font-family: 'Graphik', sans-serif;
+        padding: 10px 30px;
+    }
+    
+    .wire {
+        width: 80px;
+        margin-left: 100px;
+    }
+    
+    .btn-content {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    
+    .maleface {
+        width: 70%;
+        /* margin-right: 50px; */
+    }
+    /* Section 3 */
+    
+    .container {
+        display: flex;
+        font-family: 'Graphik', sans-serif;
+        align-items: center;
+        justify-content: center;
+        gap: 80px;
+    }
+    
+    .ingressive {
+        mix-blend-mode: darken;
+        width: 200px;
+    }
+    
+    .p-3 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 25px;
+        color: #1b1a20;
+        font-weight: bold;
+        text-align: left;
+    }
+    
+    .p-4 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 25px;
+        color: #1b1a20;
+        font-weight: lighter;
+        text-align: right;
+    }
+    
+    #readmore {
+        color: #43b97f;
+        cursor: pointer;
+    }
+    
+    .wire2 {
+        width: 100px;
+        margin-left: 200px;
+    }
+    
+    .p-5 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 25px;
+        color: #e7332b;
+        font-weight: normal;
+        text-align: left;
+    }
+    
+    .container-1 {
+        display: flex;
+        align-items: left;
+        align-items: center;
+        justify-content: center;
+        gap: 100px;
+    }
+    
+    .p-6 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 40px;
+        color: #1b1a20;
+        font-weight: bolder;
+        text-align: left;
+    }
+    
+    .star {
+        mix-blend-mode: darken;
+        width: 200px;
+        margin-right: 200px;
+    }
+    /* Section 4 */
+    
+    .cards {
+        display: flex;
+        /* flex-direction: column;
+    width: 100%; */
+        gap: 30px;
+    }
+    
+    .card-1 {
+        border-radius: 18px;
+        padding: 60px;
+        background-color: #e7332b;
+        width: 33.3%;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 10px 30px #feece8;
+    }
+    
+    .card-2 {
+        border-radius: 18px;
+        padding: 60px;
+        background-color: #ffffff;
+        width: 33.3%;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 10px 20px #feece8;
+        ;
+    }
+    /* #curve-5 {
+        width: 150px;
+        position: relative;
+        padding-left: 50px;
+        margin-top: 50px;
+    } */
+    
+    #card-h0 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 50px;
+        color: #ffffff;
+        text-align: left;
+    }
+    
+    #card-h03 {
+        font-family: 'Graphik', sans-serif;
+        color: #ffffff;
+        font-size: 35px;
+        text-align: left;
+        font-weight: bold;
+        padding-top: 35px;
+    }
+    
+    #card-p0 {
+        font-family: 'Graphik', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 35px;
+    }
+    
+    #card-h1 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 50px;
+        text-align: left;
+        color: #1b1a20;
+        text-align: left;
+    }
+    
+    #card-h3 {
+        font-family: 'Graphik', sans-serif;
+        color: #1b1a20;
+        font-size: 35px;
+        text-align: left;
+        font-weight: bold;
+        padding-top: 35px;
+    }
+    
+    #card-p {
+        font-family: 'Graphik', sans-serif;
+        color: #1b1a20;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 35px;
+    }
+    /* Section 5 */
+    
+    .container-2 {
+        display: flex;
+        background-color: #e7332b;
+    }
+    
+    .wire3 {
+        width: 100px;
+        margin-left: 200px;
+    }
+    
+    .p-7 {
+        font-family: 'Graphik', sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        text-align: left;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .p-8 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: #ffffff;
+        text-align: left;
+    }
+    
+    .image {
+        width: 100%;
+    }
+    
+    .left-content-1 {
+        width: 50%;
+    }
+    
+    .link-3 {
+        text-decoration: none;
+        background-color: #ffffff;
+        color: #e7332b;
+        border-radius: 20px;
+        font-family: 'Graphik', sans-serif;
+        padding: 10px 30px;
+        box-shadow: #1b1a20 1px 2px;
+    }
+    
+    .mini-links {
+        display: flex;
+        align-items: center;
+        margin: 5px;
+        margin-top: 30px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    .left-mini {
+        color: #ffffff;
+        font-family: 'Graphik', sans-serif;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: 2px solid #ffffff;
+        text-align: center;
+        justify-content: center;
+        width: 200px;
+        height: 60px;
+    }
+    
+    .right-mini {
+        color: #ffffff;
+        font-family: 'Graphik', sans-serif;
+        padding: 10px 20px;
+        border-radius: 30px;
+        border: 2px solid #ffffff;
+        text-align: center;
+        justify-content: center;
+        width: 200px;
+        height: 60px;
+    }
+    
+    .dot-1 {
+        width: 120px;
+    }
+    /* Section 6 */
+    
+    .p-9 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 25px;
+        font-weight: normal;
+        color: #e7332b;
+        text-align: left;
+    }
+    
+    .p-10 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 40px;
+        font-weight: bold;
+        color: #1b1a20;
+        text-align: left;
+        width: 100%;
+    }
+    
+    .wire4 {
+        width: 180px;
+        margin-left: 400px;
+    }
+    
+    .p-11 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        color: #1b1a20;
+        text-align: left;
+    }
+    
+    .p-12 {
+        font-family: 'Graphik', sans-serif;
+        font-size: 16px;
+        line-height: 20px;
+        font-weight: normal;
+        color: #1b1a20;
+        text-align: left;
+    }
+    
+    .course-cards {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+    
+    .card-a {
+        border-radius: 50px;
+        padding: 40px;
+        background-color: #ffffff;
+        width: 33.3%;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 1px 10px 20px #feece8;
+    }
+    
+    #logo-1 {
+        padding-bottom: 45px;
+        margin-top: 10px;
+    }
+    
+    #logo-a {
+        width: 80px;
+    }
+    
+    .btn-4 {
+        margin-left: 43%;
+        padding-top: 50px;
+    }
+    
+    .link-4 {
+        text-decoration: none;
+        background-color: #e7332b;
+        color: #ffffff;
+        border-radius: 20px;
+        font-family: 'Graphik', sans-serif;
+        padding: 10px 30px;
+    }
+    @media only screen and (max-width: 600px){
+        
+    }
